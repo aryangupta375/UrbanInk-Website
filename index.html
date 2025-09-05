@@ -1,61 +1,204 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UrbanInk - Your Vibe Your Tee</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>UrbanInk — Your Vibe, Your Tee</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="logo.png" />
 </head>
 <body>
-  <header>
-    <div class="logo"><img src="logo.png" alt="UrbanInk Logo" height="50"></div>
-    <nav>
+
+<!-- Preloader -->
+<div id="preloader">
+  <div class="preloader-inner">
+    <img src="logo.png" alt="UrbanInk Logo" class="preloader-logo" />
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <a href="#" class="brand-link"><img src="logo.png" alt="UrbanInk" class="site-logo"></a>
+    </div>
+    <nav class="nav">
       <a href="#collection">Collection</a>
       <a href="#about">About</a>
-      <a href="#order">Order</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
     </nav>
-  </header>
+  </div>
+</header>
 
+<main>
   <section class="hero">
-    <h1>Your Vibe Your Tee</h1>
-    <p>Premium custom-printed T-shirts designed with passion and made for you.</p>
-    <a href="https://wa.me/917666019019" class="btn">Order on WhatsApp</a>
-    <a href="https://instagram.com/aaryan4sure" class="btn">DM on Instagram</a>
-  </section>
-
-  <section id="collection" class="collection">
-    <h2>Our Collection</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="sample1.jpg" alt="Sample T-shirt 1">
-        <div class="card-body">
-          <h3>Streetwear Tee</h3>
-          <p>₹599 - Bold Urban Style</p>
-          <a href="https://wa.me/917666019019" class="btn">Order Now</a>
-        </div>
-      </div>
-      <div class="card">
-        <img src="sample2.jpg" alt="Sample T-shirt 2">
-        <div class="card-body">
-          <h3>Classic White</h3>
-          <p>₹499 - Minimal & Clean</p>
-          <a href="https://instagram.com/aaryan4sure" class="btn">Order Now</a>
-        </div>
+    <div class="container hero-inner">
+      <h1 class="slogan"><span>Your Vibe</span> <span class="accent">Your Tee</span></h1>
+      <p class="hero-sub">Premium custom-printed T-shirts — bold prints, crisp lines, made with care.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://wa.me/917666019019" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn outline" href="https://instagram.com/aaryan4sure" target="_blank" rel="noopener">📸 Instagram</a>
       </div>
     </div>
   </section>
 
-  <section id="about" class="collection">
-    <h2>About UrbanInk</h2>
-    <p>UrbanInk is a creative startup focused on custom T-shirt printing. Our goal is to bring your imagination to life through premium quality apparel, perfect for every occasion.</p>
+  <section id="collection" class="collection">
+    <div class="container">
+      <h2>Our Collection</h2>
+      <div class="grid">
+        <article class="card new">
+          <div class="badge">New</div>
+          <a href="images/graphic1.svg" class="lightbox-trigger"><img src="images/graphic1.svg" alt="Graphic Tee 1"></a>
+          <div class="card-body">
+            <h3>Urban Graphic Drop</h3>
+            <p class="price">₹699</p>
+            <div class="card-actions">
+              <a class="btn small" href="https://wa.me/917666019019?text=Hello%20I%20want%20Urban%20Graphic%20Drop" target="_blank">Order on WhatsApp</a>
+              <a class="btn small" href="https://instagram.com/aaryan4sure" target="_blank">DM on Instagram</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="images/plain1.svg" class="lightbox-trigger"><img src="images/plain1.svg" alt="Plain Tee"></a>
+          <div class="card-body">
+            <h3>Plain Tee (Front)</h3>
+            <p class="price">₹499</p>
+            <div class="card-actions">
+              <a class="btn small" href="https://wa.me/917666019019?text=Hello%20I%20want%20Plain%20Tee%20Front" target="_blank">Order on WhatsApp</a>
+              <a class="btn small" href="https://instagram.com/aaryan4sure" target="_blank">DM on Instagram</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="images/graphic2.svg" class="lightbox-trigger"><img src="images/graphic2.svg" alt="Graphic Tee 2"></a>
+          <div class="card-body">
+            <h3>Graphic Collage Tee</h3>
+            <p class="price">₹799</p>
+            <div class="card-actions">
+              <a class="btn small" href="https://wa.me/917666019019?text=Hello%20I%20want%20Graphic%20Collage%20Tee" target="_blank">Order on WhatsApp</a>
+              <a class="btn small" href="https://instagram.com/aaryan4sure" target="_blank">DM on Instagram</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="images/plain2.svg" class="lightbox-trigger"><img src="images/plain2.svg" alt="Plain Tee Back"></a>
+          <div class="card-body">
+            <h3>Plain Tee (Back)</h3>
+            <p class="price">₹499</p>
+            <div class="card-actions">
+              <a class="btn small" href="https://wa.me/917666019019?text=Hello%20I%20want%20Plain%20Tee%20Back" target="_blank">Order on WhatsApp</a>
+              <a class="btn small" href="https://instagram.com/aaryan4sure" target="_blank">DM on Instagram</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="images/graphic3.svg" class="lightbox-trigger"><img src="images/graphic3.svg" alt="Graphic Tee 3"></a>
+          <div class="card-body">
+            <h3>Ink Stamp Tee</h3>
+            <p class="price">₹749</p>
+            <div class="card-actions">
+              <a class="btn small" href="https://wa.me/917666019019?text=Hello%20I%20want%20Ink%20Stamp%20Tee" target="_blank">Order on WhatsApp</a>
+              <a class="btn small" href="https://instagram.com/aaryan4sure" target="_blank">DM on Instagram</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
   </section>
 
-  <footer id="order">
-    <p>Connect with us: 
-      <a href="https://wa.me/917666019019">WhatsApp</a> | 
-      <a href="https://instagram.com/aaryan4sure">Instagram</a>
-    </p>
-    <p>Made with ❤️ by UrbanInk</p>
-  </footer>
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About UrbanInk</h2>
+      <p>UrbanInk is a Mumbai-based custom T-shirt printing startup. We create bold, wearable designs using DTG, screen printing and vinyl techniques. Single pieces and bulk orders welcome.</p>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>What Customers Say</h2>
+      <div class="test-grid">
+        <blockquote>“Amazing print quality and fast delivery — got my college batch shirts in 3 days.” <cite>— Riya</cite></blockquote>
+        <blockquote>“Loved the design and the fit. UrbanInk nailed it!” <cite>— Sameer</cite></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="insta" class="insta">
+    <div class="container">
+      <h2>Instagram</h2>
+      <p class="muted">Live feed from <a href="https://instagram.com/aaryan4sure" target="_blank">@aaryan4sure</a>. If you want a fully automatic feed, follow the README steps to enable a widget (free options: LightWidget, SnapWidget).</p>
+      <div class="insta-grid">
+        <!-- Placeholder images (click to open Instagram) -->
+        <a href="https://instagram.com/aaryan4sure" target="_blank"><img src="images/graphic1.svg" alt="Insta 1"></a>
+        <a href="https://instagram.com/aaryan4sure" target="_blank"><img src="images/graphic2.svg" alt="Insta 2"></a>
+        <a href="https://instagram.com/aaryan4sure" target="_blank"><img src="images/graphic3.svg" alt="Insta 3"></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container contact-inner">
+      <h2>Contact</h2>
+      <p>For orders & custom designs, message us on WhatsApp or DM on Instagram.</p>
+      <div class="contact-cta">
+        <a class="btn whatsapp-btn" href="https://wa.me/917666019019" target="_blank">💬 Chat on WhatsApp</a>
+        <a class="btn outline" href="https://instagram.com/aaryan4sure" target="_blank">📸 Visit Instagram</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/917666019019" class="floating-wa" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="left"><img src="logo.png" alt="logo" class="footer-logo"> © <span id="year"></span> UrbanInk</div>
+    <div class="right"><a href="https://instagram.com/aaryan4sure" target="_blank">@aaryan4sure</a> · <a href="https://wa.me/917666019019" target="_blank">WhatsApp</a></div>
+  </div>
+</footer>
+
+<!-- Lightbox modal -->
+<div id="lightbox" class="lightbox">
+  <div class="lightbox-content">
+    <img src="" alt="preview" id="lightbox-img">
+    <button id="lightbox-close" class="lightbox-close">✕</button>
+  </div>
+</div>
+
+<script>
+// Preloader
+window.addEventListener('load', function() {
+  const pre = document.getElementById('preloader');
+  pre.classList.add('loaded');
+  setTimeout(function(){ pre.style.display='none'; }, 600);
+});
+
+// Lightbox
+document.querySelectorAll('.lightbox-trigger').forEach(function(a){
+  a.addEventListener('click', function(e){
+    e.preventDefault();
+    var src = this.getAttribute('href');
+    var img = document.getElementById('lightbox-img');
+    img.src = src;
+    document.getElementById('lightbox').classList.add('open');
+  });
+});
+document.getElementById('lightbox-close').addEventListener('click', function() {
+  document.getElementById('lightbox').classList.remove('open');
+});
+document.getElementById('lightbox').addEventListener('click', function(e){
+  if(e.target===this) this.classList.remove('open');
+});
+
+// Year
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
